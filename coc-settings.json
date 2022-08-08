@@ -1,0 +1,37 @@
+{
+  "langugeserver": {
+    "go": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "trace.server": "verbose",
+      "filetypes": ["go"]
+    }
+  },
+  "html.enable": true,
+  "html.execArgv": [],
+  "html.filetypes": [
+  	"html",
+  	"handlebars",
+  	"htmldjango",
+  	"blade"
+  ],
+  "html.customData": [],
+  "html.completion.attributeDefaultValue": "doublequotes",
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.unformatted": "wbr",
+	"terminal.REPLMappings": {
+		"c": "cling",
+		"cpp": "cling",
+		"javascript": "node",
+		"typescript": "ts-node",
+		"python": "python"
+	},
+	"prettier.endOfLine": "lf",
+	"prettier.arrowParens":"always",
+	"prettier.bracketSpacing":true,
+	"prettier.enable": true,
+	"prettier.disableLanguages": ["vue"],
+	"coc.preferences.formatOnSaveFiletypes": ["typescript","css", "markdown","javascript"],
+	"colors.filetypes": ["*"]
+}
