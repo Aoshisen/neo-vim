@@ -119,3 +119,6 @@ command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
 "cochight 的配置
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+
+
+
